@@ -28,7 +28,7 @@ export const GlobalStyles = (
       }
 
       html {
-        font-family: sans-serif;
+        font-family: '맑은고딕', malgun gothic, '돋움', Dotum, 'Apple SD Gothic Neo', Helvetica, sans-serif;
         font-size: 16px;
         /* Prevent font scaling in landscape */
         -webkit-text-size-adjust: none; /*Chrome, Safari, newer versions of Opera*/

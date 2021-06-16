@@ -1,4 +1,5 @@
 import React from 'react'
+import { memo } from 'react'
 import Header from './Header'
 
 interface Props {
@@ -14,4 +15,4 @@ function Layout({ children }: Props) {
   )
 }
 
-export default Layout
+export default memo(Layout)
